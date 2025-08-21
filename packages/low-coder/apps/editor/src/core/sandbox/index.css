@@ -1,0 +1,20 @@
+body {
+  padding: 5px;
+}
+
+.low-coder__is-selected::after {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid red;
+  border-radius: 0;
+  z-index: 2;
+}
+
+.low-coder__is-selected-relative {
+  position: relative;
+}

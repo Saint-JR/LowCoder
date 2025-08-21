@@ -1,0 +1,5 @@
+packages:
+  - 'packages/low-coder/apps/*'
+  - 'packages/low-coder/libs/*'
+  - 'packages/materials'
+  - 'packages/launcher/*'

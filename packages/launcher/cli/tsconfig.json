@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2020", "DOM"],
+    "skipLibCheck": true,
+
+    "module": "Node16",
+    "types": ["node"],
+    "outDir": "./dist",
+    "declaration": true,
+    "allowJs": true,
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["**/*.ts", "**/*.d.ts", ".eslintrc.js", "**/*.js"],
+  "exclude": ["**/node_modules", "**/dist"]
+}
